@@ -1,4 +1,4 @@
-module github.com/BoostyLabs/go-auth
+module boostylabs/go-auth
 
 go 1.17
 
