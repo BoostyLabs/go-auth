@@ -6,9 +6,7 @@ package go_auth
 import (
 	"bytes"
 	"encoding/json"
-	"time"
 
-	"github.com/google/uuid"
 	"github.com/zeebo/errs"
 )
 
@@ -16,12 +14,7 @@ import (
 var ClaimsError = errs.Class("admin auth claims error")
 
 // Claims represents data signed by server and used for authentication.
-// TODO: add id everywhere.
-type Claims struct {
-	UserID    uuid.UUID `json:"userId"`
-	Email     string    `json:"email"`
-	ExpiresAt time.Time `json:"expiresAt"`
-}
+type Claims map[string]string
 
 // JSON returns json representation of Claims.
 func (c *Claims) JSON() ([]byte, error) {

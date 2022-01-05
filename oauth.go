@@ -1,7 +1,5 @@
-// Copyright (C) 2021-2022 Amuzed GmbH finn@amuzed.io.
-// This file is part of the project AMUZED.
-// AMUZED can not be copied and/or distributed without the express.
-// permission of Amuzed GmbH.
+// Copyright (C) 2021 Creditor Corp. Group.
+// See LICENSE for copying information.
 
 package go_auth
 
