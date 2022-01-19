@@ -2,4 +2,4 @@
 
 #Install
 
-go get -u github.com/goauth
+go get -u github.com/BoostyLabs/goauth
