@@ -1,4 +1,5 @@
 # goauth - authentication
 
 #Install
-go get -u github.com/go-pkgz/auth
+
+go get -u github.com/goauth
